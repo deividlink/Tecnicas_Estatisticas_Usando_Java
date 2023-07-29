@@ -1,7 +1,9 @@
 package unidade_01_code;
-
+/**
+* @project unidade_01_code  
+* @author Deivid K. Lima
+*/ 
 import unidade_01_code.modelo.RegressaoLinearSimples;
-
 import java.util.List;
 
 public class Main {
