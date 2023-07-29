@@ -2,10 +2,10 @@ package unidade_01_code.modelo;
 
 import java.util.List;
 
-public class RegressaoLinear {
+public class RegressaoLinearSimples {
     private static double beta1;
     private static double beta0;
-    public RegressaoLinear(){
+    public RegressaoLinearSimples(){
         beta0 = 0;
         beta1 = 0;
     }

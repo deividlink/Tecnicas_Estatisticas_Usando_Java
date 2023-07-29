@@ -1,12 +1,12 @@
 package unidade_01_code;
 
-import unidade_01_code.modelo.RegressaoLinear;
+import unidade_01_code.modelo.RegressaoLinearSimples;
 
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        RegressaoLinear regressaoLinear = new RegressaoLinear();
+        RegressaoLinearSimples regressaoLinear = new RegressaoLinearSimples();
         List<Double> X = List.of(1.0,2.0,6.0);
         List<Double> Y = List.of(9.0,10.0,14.0);
         regressaoLinear.calcularBeta1(X,Y);
