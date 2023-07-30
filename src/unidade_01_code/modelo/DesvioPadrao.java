@@ -28,10 +28,7 @@ public class DesvioPadrao {
         // Divide a soma dos quadrados pela quantidade de valores menos um
         double variancia = somaQuadradoDiferencas / (n - 1);
         // Calcula o desvio padrão como a raiz quadrada da variância
-        double desvio = Math.sqrt(variancia);
-        return desvio;
-
-
+        return Math.sqrt(variancia);
     }
 
 }
